@@ -66,7 +66,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'assignment-web-app-portal'
+          app-name: 'msdocs-core-sql-mohammed'
           slot-name: 'Production'
           package: .
           
